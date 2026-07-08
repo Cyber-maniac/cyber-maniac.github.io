@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Resume & Portfolio</title>
+    <meta
+      name="description"
+      content="A modern personal website for showcasing your resume and portfolio."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <a href="index.html" class="brand">AS</a>
+        <div class="nav-links">
+          <a href="resume.html">Resume</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="container hero-content">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">BCA Data Science Fresher • Chandigarh University</p>
+          <h1>Building digital solutions with passion.</h1>
+          <p class="lead">
+            I'm a recent BCA graduate specializing in Data Science, eager to apply
+            my technical skills in web development, data analysis, and creative
+            design to create impactful solutions.
+          </p>
+          <div class="actions">
+            <a class="btn btn-primary" href="resume.html">View Resume</a>
+            <a class="btn btn-secondary" href="portfolio.html">See Portfolio</a>
+            <a
+              class="btn btn-linkedin"
+              href="https://www.linkedin.com/in/adit-singh-503551417"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <img src="https://media.licdn.com/dms/image/v2/D5603AQH_24RM_nBWXA/profile-displayphoto-scale_400_400/B56Z7bAPsGGcAs-/0/1781790738622?e=1785369600&v=beta&t=peYRKfd7ZyG7A1o5TtAHE3PZWiuGRjq0wvrorxoF6Kk" alt="LinkedIn Profile" class="profile-photo" />
+          <h2 class="profile-name">Adit Singh</h2>
+          <h3>Quick Snapshot</h3>
+          <ul>
+            <li>Web Development</li>
+            <li>Graphic Design</li>
+            <li>Basic Video Editing</li>
+            <li>UI/UX Design</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container reveal">
+        <div class="section-intro">
+          <p class="eyebrow">About</p>
+          <h2>About Me</h2>
+          <p>
+            I'm a BCA Data Science fresher from Chandigarh University with a passion
+            for web development, data analysis, and creative design. I enjoy building
+            clean, functional websites and am eager to kickstart my career by working
+            on impactful projects in a professional environment.
+          </p>
+        </div>
+      </section>
+
+      <section id="resume" class="section container reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Resume</p>
+          <h2>Resume Highlights</h2>
+        </div>
+        <div class="split-grid">
+          <article class="card resume-preview reveal">
+            <h3>Education</h3>
+            <ul>
+              <li>BCA in Data Science from Chandigarh University</li>
+              <li>CUET English: 96 Percentile</li>
+              <li>Strong foundation in Web Development and UI/UX</li>
+            </ul>
+          </article>
+          <article class="card resume-preview reveal">
+            <h3>Core Skills</h3>
+            <div class="skill-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>UI/UX</li>
+              <li>Graphic Design</li>
+              <li>Basic Video Editing</li>
+            </div>
+            <div class="actions section-actions">
+              <a class="btn btn-secondary" href="resume.html">Open full resume</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section container reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Selected Projects</h2>
+          <p>
+            A snapshot of work that highlights my approach to design, execution,
+            and impact.
+          </p>
+        </div>
+        <div class="card-grid">
+          <article class="card reveal">
+            <h3>Lead Capturing Website</h3>
+            <p>Built a responsive web application with HTML, CSS, and JavaScript integrated with Twilio API for automated lead capture and communication workflows.</p>
+          </article>
+          <article class="card reveal">
+            <h3>WiFi Scanner Tool</h3>
+            <p>Developed a Python-based WiFi scanning utility that detects available networks and displays signal strength, demonstrating proficiency in network programming.</p>
+          </article>
+        </div>
+        <div class="actions section-actions">
+          <a class="btn btn-secondary" href="portfolio.html">View full portfolio</a>
+        </div>
+      </section>
+
+      <section id="contact" class="section container contact reveal">
+        <h2>Let’s Connect</h2>
+        <p>Feel free to reach out if you have any questions or opportunities!</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:aditsingh128@gmail.com">Email Me</a>
+          <a
+            class="btn btn-linkedin"
+            href="https://www.linkedin.com/in/adit-singh-503551417/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit LinkedIn
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Adit Singh. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
